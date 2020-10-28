@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 ReactDOM.render(
   <React.StrictMode>
+  <div className="container">
     <App />
+    
+</div>
+
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('container')
 );
 
 // If you want to start measuring performance in your app, pass a function
